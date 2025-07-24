@@ -1,7 +1,7 @@
 package JavaTasks.Introduction;
 
 
-public class ExemploDeClasse {
+public class ClassExample {
     public static void main(String[] angs){
         System.out.println("Hello World");
     }
