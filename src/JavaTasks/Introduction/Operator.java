@@ -35,12 +35,29 @@ public class Operator {
         boolean isInTheLawLessThirtyAge = age < 30 && wage >= 3381;
         System.out.println("Operator Logic && - isInTheLawLessThirtyAge: " + isInTheLawGreaterThirtyAge);
         System.out.println("Operator Logic && - isInTheLawLessThirtyAge: " + isInTheLawLessThirtyAge);
-        //Operator Logic  || (OR) ! (negative)
+        //Operator Logic  || (OR)
         double valueDesktop = 4531.66;
 
         double valueAccountInter = 500;
         double valueAccountNubank = 5000;
         boolean resultDesktop = valueAccountInter > valueDesktop || valueAccountNubank > valueDesktop;
+
+        //Operator Logic ! (negative)
+        double budget = valueAccountInter + valueAccountNubank;
+        boolean isValueBudgetGreaterToValueDesktopTrue = budget > valueDesktop;
+        boolean isValueBudgetGreaterToValueDesktopFalse = budget == valueDesktop;
+
+
+        if (isValueBudgetGreaterToValueDesktopTrue){
+            System.out.println("voce tem saldo suficiente para comprar o Desktop");
+
+        };
+
+        if (!isValueBudgetGreaterToValueDesktopFalse){
+            System.out.println("voce não tem saldo suficiente para comprar o Desktop");
+
+        };
+
 
         // Operator assignment = += -= /= %=
 
