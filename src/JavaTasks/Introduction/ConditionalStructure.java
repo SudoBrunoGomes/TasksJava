@@ -11,8 +11,17 @@ public class ConditionalStructure {
         if(isAuthorizedToBuyDrinksTrue){
             System.out.println( "ConditionalStructure If - " + "Compra de Bebida autorizada pois o User tem a seguinte Idade: " + age);
         }
-        if(isAuthorizedToBuyDrinksFalse){
+
+        if (isAuthorizedToBuyDrinksTrue) {
+            System.out.println("ConditionalStructure else - Exemplo de else ");
+        } else {// o ! inverteu o valor Boolean para False, portanto o print não vai para o console
             System.out.println( "ConditionalStructure if - " + "Compra de Bebida não autorizada pois o User tem a seguinte Idade: " + age2);
         }
+
+        if(isAuthorizedToBuyDrinksFalse){// o ! inverteu o valor Boolean para False, portanto o print não vai para o console
+            System.out.println( "ConditionalStructure if - " + "Compra de Bebida não autorizada pois o User tem a seguinte Idade: " + age2);
+        }
+
+
     }
 }

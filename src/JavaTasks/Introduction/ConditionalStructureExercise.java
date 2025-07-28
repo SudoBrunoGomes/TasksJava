@@ -1,4 +1,4 @@
-package JavaTasks.Introduction.Image;
+package JavaTasks.Introduction;
 
 //Organização de categorias
 //idade < 15         --> categoria infantil
