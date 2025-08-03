@@ -12,11 +12,11 @@ public class ConditionalStructureExercise {
         String categoria = " ";
 
         if(age < 15){
-            categoria = "Categoria --> Infantil";
+            categoria = "Categoria ---> Infantil";
         } else if (age > 15 && age < 18) {
-            categoria = "Categoria --> Juvenil";
+            categoria = "Categoria ---> Juvenil";
         }else {
-            categoria = "Categoria --> Adulto";
+            categoria = "Categoria ---> Adulto";
         }
         System.out.println(categoria);
 
